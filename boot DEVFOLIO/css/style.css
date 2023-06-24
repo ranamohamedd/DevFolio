@@ -1,0 +1,269 @@
+
+#home{
+    background-image: url(../img/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+#home .content h1{
+    font-size: 4.5rem;
+
+}
+#home .content span::after{
+    content: " |";
+    animation-name: typing;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes typing{
+    0%{content: "D|";}
+    2%{content: "De|";}
+    4%{content: "Des|";}
+    6%{content: "Desi|";}
+    8%{content: "Desig|";}
+    10%{content: "Designe|";}
+    12%{content: "Designer|";}
+    14%{content: "Designe|";}
+    16%{content: "Design|";}
+    18%{content: "Desig|";}
+    20%{content: "Desi|";}
+    22%{content: "Des|";}
+    24%{content: "De|";}
+    26%{content: "Dev|";}
+    28%{content: "Deve|";}
+    30%{content: "Devel|";}
+    32%{content: "Develo|";}
+    34%{content: "Develop|";}
+    38%{content: "Develope|";}
+    40%{content: "Developer|";}
+    42%{content: "Develope|";}
+    44%{content: "Develop|";}
+    46%{content: "Develo|";}
+    48%{content: "Devel|";}
+    50%{content: "Deve|";}
+    52%{content: "Dev|";}
+    54%{content: "De|";}
+    56%{content: "D|";}
+    58%{content: "F|";}
+    60%{content: "Fr|";}
+    62%{content: "Free|";}
+    64%{content: "Freel|";}
+    66%{content: "Freelan|";}
+    68%{content: "Freelance|";}
+    70%{content: "Freelan|";}
+    72%{content: "Freel|";}
+    74%{content: "Free|";}
+    76%{content: "Fr|";}
+    78%{content: "F|";}
+    80%{content: "Ph|";}
+    82%{content: "Pho|";}
+    84%{content: "Phot|";}
+    86%{content: "Photo|";}
+    88%{content: "Photog|";}
+    90%{content: "Photogr|";}
+    92%{content: "Photogra|";}
+    94%{content: "Photograp|";}
+    96%{content: "Photograph|";}
+    98%{content: "Photographe|";}
+    100%{content: "Photographer|";}
+}
+
+#home .content span{
+    font-size: 2.5rem;
+}
+
+.overlay-h{
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#aboutMe::after{
+    content: "";
+    width: 15%;
+    bottom: 0;
+    right: 77%;
+    transform: translateX(-50%);
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+}
+
+#services-desc::after{
+    content: "";
+    width: 3%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+    
+}
+
+.icon-circle {
+    width: 8rem;
+    height: 8rem;
+    border-color: #0078FF !important;
+    border-width: 0.7rem !important;
+    transition-duration: 2s;
+    
+}
+.icon-circle:hover{
+    background-color: #0078FF;
+    border-color: #CDE1F8 !important;
+    .ser-icons{
+        color: white;
+    }
+    
+}
+
+
+
+.bg-img{
+    background-image: url(../img/img/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#overlay{
+    background-color: #0078FF;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 75%;
+    
+}
+
+.num-icon-circle {
+    width: 5rem;
+    height: 5rem;
+    border-color: #CDE1F8 !important;
+    border-width: 0.5rem !important;
+    
+}
+.num-icon span i{
+    color: white;
+}
+#port-desc::after{
+
+    content: "";
+    width: 3%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+
+}
+
+.card-imgs{
+    
+    transition-duration: 2s;
+
+}
+.card-imgs:hover{
+    transform: scale(1.1);
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+.testmonials{
+    background-image: url(../img/img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.overlay-slider{
+        background-color: #0078FF;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 50%;
+        
+    
+}
+.container .carousel-indicators button{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+.card .card-footer .sora{
+    height: 2rem;
+    width: 2rem;
+
+}
+.card .card-body a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    background-image: url(../img/img/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay-c{
+    background-color: #0078FF;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 50%;
+        
+
+}
+#contact h2::after{
+    content: "";
+    width: 25%;
+    bottom:0;
+    left: 13%;
+    transform: translateX(-50%);
+    height: 5px;
+    background-color: #0078FF;
+    position: absolute;
+
+}
+#contact .right ul li{
+    list-style-type: none;
+    color: #4E4E4E;
+}
+#contact .right .cont-icons li i{
+    color: #0078FF;
+}
+#contact .right .social-icons .icon{
+    width: 3rem;
+    height: 3rem;
+    border-color: #0078FF !important;
+    border-width: 0.2rem !important;
+    transition-duration: 2s;
+}
+#contact .right .social-icons .icon:hover{
+    background-color: #0078FF;
+    border-color: #CDE1F8 !important;
+    .cont-icons{
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
